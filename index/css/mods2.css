@@ -1,0 +1,838 @@
+
+    /*modifications*/
+
+
+.front_pic {
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+
+
+#donate_pic {
+  width: 95%;
+  max-width: 960px;
+  margin: 10px auto 20px;
+}
+
+.padding_boxes{
+  /*padding: 0 20px;*/
+  /*border: 1px solid black;*/
+}
+
+.vert_mid {
+position: relative;
+  top: 26%;
+  transform: translateY(-26%);
+}
+
+.front_botline{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+
+
+.leadership span,
+.opportunities span,
+.our_mission span,
+.calendars span,
+.volunteer span,
+.donation span {
+  color: #c10000;
+  font-size: .8em;
+  font-weight: 300;
+  }
+
+@media screen and (max-width: 899px) {
+.calendars,
+.volunteer,
+.donation {
+  display: none;
+  }
+}
+
+.box {
+        height: 27px;
+      }
+
+.box a {
+  color: #fff;
+}
+
+
+
+
+@media screen and (min-width: 750px) {
+
+    .front_pic {
+        margin-bottom: 18px;
+    }
+
+      .box {
+        /*height: 20px;*/
+        font-size: 1.1em;
+      }
+}
+
+
+
+      /*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+      .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+
+
+      .box {
+        width: 100%;
+      }
+
+
+
+
+@media screen and (min-width: 900px) {
+.container {
+  justify-content: center;
+}
+
+
+  .leadership {
+    width: 14.65%;
+    /*order: 1;*/
+  }
+
+
+  .our_mission {
+    width: 14.65%;
+    /*order: -1;*/
+  }
+
+  .opportunities {
+    width: 10.65%;
+  }
+
+.calendars {
+  width: 7%;
+}
+
+
+.volunteer {
+  width: 14%;
+}
+
+.donation {
+  width: 6%;
+  }
+}
+
+
+  .box {
+    color: white;
+  }
+  .front_botline {
+ /*   padding-bottom: 17px;*/
+  border-bottom: hidden;
+  /*border-right: 1px solid black;*/
+  /*border-left: 1px solid black;*/
+  }
+}
+
+
+
+
+
+
+  /*above is new front page stuff*/
+
+.cover_image {
+text-align: center;
+margin-top: 70px;
+}
+
+#logo_head {
+  max-width: 320px;
+  width: 60%;
+  margin-top: 4px;
+  margin-bottom: 11px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ @media only screen and (min-width: 960px) {
+  #logo_head {
+  max-width: 320px;
+  margin-top: 1px;
+  margin-bottom: 11px;
+  }
+}
+
+#logo_head_donate {
+  max-width: 290px;
+  margin-top: -26px;
+  margin-bottom: -29px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ @media only screen and (min-width: 960px) {
+  #logo_head_donate {
+  margin-top: -26px;
+  margin-bottom: -29px;
+  }
+}
+
+
+
+#logo_under {
+  font-size: 1em;
+  color:  #404040;
+  font-weight: bold;
+  width: 90%;
+  max-width: 900px;
+  padding: 0px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -29px;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+  #opportunities_under {
+    font-size: 1.4em;
+  }
+   #logo_under {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+   #logo_under {
+      font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+.world_top  {
+  max-width: 420px;
+  margin-top: -60px;
+  margin-bottom: -100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+.pages_headers {
+  margin-top: 21px;
+  margin-bottom: -100px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.4em;
+    /*add position relative z-index to overwrite iframe padding*/
+  position: relative;
+  z-index: 1;
+  }
+  .pages_headers h1 {
+    font-size: 1.3em;
+    margin-top: 47px;
+    margin-bottom: -10px;
+  }
+
+
+
+
+@media only screen and (min-width: 360px) {
+.pages_headers {
+  margin-top: -119px;
+  margin-bottom: -99px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.4em;
+  }
+   .pages_headers h1 {
+  }
+}
+
+
+
+@media only screen and (min-width: 450px) {
+.pages_headers {
+  margin-top: -129px;
+  margin-bottom: -98px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.4em;
+  border: none;
+  }
+.pages_headers h1 {
+    font-size: 1.6em;
+    margin-bottom: -5px;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+.pages_headers {
+  margin-top: -115px;
+  margin-bottom: -78px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.4em;
+  border:none;
+  }
+.pages_headers h1 {
+    font-size: 1.8em;
+    margin-bottom: -5px;
+   }
+}
+
+
+
+
+
+
+
+
+
+#timeline_logo {
+  max-width: 420px;
+}
+
+
+#patagonia {
+  width: 23%;
+  max-width: 120px;
+  margin-top: 20px;
+}
+
+
+#patag_thanx{
+  line-height: 1.2em;
+  margin-bottom: 35px;
+  margin-top: 12px;
+}
+
+#patag_thanx h2 {
+  font-size: 1.1em;
+  color:   #737373;
+}
+#patag_thanx p {
+  font-size: 0.8em;
+  color:   #737373;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+
+@media only screen and (min-width: 590px) {
+
+
+#patagonia {
+  margin-top: 40px;
+}
+
+#patag_thanx{
+  line-height: 1.6em;
+}
+
+
+#patag_thanx h2 {
+  font-size: 1.2em;
+  }
+#patag_thanx p {
+  font-size: 1em;
+    width: 500px;
+  }
+}
+
+
+   /*sizing for pointy slide show on Students Take Action*/
+.iframe_fixer {
+  position: relative;
+}
+
+
+#show1_ctr {
+  /*margin: 0px;*/
+  text-align: center;
+}
+
+   #slides {
+    width: 95%;
+    height: 490px;
+    margin-top: 70px;
+}
+
+
+/*sizing for pointy slide show on Opportunities*/
+/*
+#show2_ctr {
+  margin: 0px;
+  text-align: center;
+}
+*/
+
+#show2_holder {
+  text-align: center;
+}
+
+   #slides2 {
+    width: 95%;
+/*    height: 650px;*/
+                height: 550px;
+    margin-top: 70px;
+  }
+
+@media only screen and (min-width: 960px) {
+  #slides2 {
+    height: 520px;
+    margin-top: 70px;
+  }
+}
+
+
+/*
+@media only screen and (min-width: 450px) {
+  #slides2 {
+    width: 105%;
+    height: 210px;
+    margin-top: 70px;
+  }
+}
+
+
+@media only screen and (min-width: 645px) {
+  #slides2 {
+    width: 105%;
+    height: 240px;
+    margin-top: 70px;
+  }
+}
+
+
+*/
+#slides_holder {
+text-align: center;
+}
+
+.top_ctr {
+  text-align: center;
+}
+
+
+   /*leader-group svg sizing on action page*/
+
+   #leader-group {
+    width: 45%;
+    max-width: 190px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+   }
+
+   /*line height for action page*/
+
+   .line_ht1 {
+    line-height: .9em;
+   }
+
+
+     /*Join Other Schools Page*/
+
+     #schools_pic_lg {
+
+     width: 100%;
+     max-width: 900px;
+     margin-top: 70px;
+     }
+
+
+ /*calendar container - action page*/
+
+
+     .calendar_container {
+      border-top: 4px solid gray;
+      border-left: 1px solid gray;
+      border-right: 1px solid gray;
+      border-bottom: 4px solid gray;
+      border-radius: 12px;
+      max-width: 650px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      padding: 10px 9px 32px;
+     }
+
+     .calendar_container h3 {
+      font-size: 1.1em;
+      font-weight: bold;
+     }
+      .calendar_container p {
+      font-size: 1.1em;
+     }
+
+
+     .calendar_pic_ctr {
+      text-align: center;
+     }
+
+
+     .calendar_pic {
+      max-width: 640px;
+      width: 95%;
+    }
+
+
+#events_button {
+  color:  #bb1133;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#action_arrow_down {
+  width: 49%;
+  max-width: 170px;
+  margin-bottom: 12px;
+}
+
+  #su {
+  max-width: 550px;
+  width: 90%;
+  height: 50px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -6px;
+  margin: 4px auto -7px;
+  padding-top: 11px;
+  }
+
+ @media only screen and (max-width: 360px) {
+  #su {
+     font-size:80%;
+  }
+ }
+
+   /*Opportunities Page*/
+
+
+/*opportunities list svg sizing on action page*/
+
+   #opportunities_get {
+    width: 45%;
+    max-width: 190px;
+    margin-bottom: 20px;
+   }
+
+
+  /*opportunities banner*/
+
+  #banner_opportunities {
+    /*background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background:
+            linear-gradient(44deg,  #00cc00, transparent 29%),
+            linear-gradient(260deg,
+ #b30000, transparent 65%),
+            linear-gradient(160deg,
+ #ffe6e6, transparent 145%),
+            #ffa949 url('../img/tour2.jpg') no-repeat center;
+            /* last line is top layer  */
+  background-size: cover;
+  background-position: top;
+  padding-top: 40px;
+  line-height: 1.5em;
+  height: 195px;
+  margin-top: 122px;
+  /*color: #4d4d4d;*/
+    color: white;
+        text-shadow: 2px 2px black;
+
+
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+ @media only screen and (min-width: 490px) {
+
+ #banner_opportunities {
+  font-size: 1.8em;
+   line-height: 1.6em;
+     height: 260px;
+ }
+}
+
+
+@media only screen and (min-width: 690px) {
+
+ #banner_opportunities {
+  font-size: 2.9em;
+   line-height: 1.6em;
+     height: 380px;
+ }
+}
+
+
+
+
+
+#opportunities_under {
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+
+#opportunities_under2 {
+  font-size: 1em;
+  width: 90%;
+  max-width: 500px;
+  padding: 14px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+  #opportunities_under {
+    font-size: 1.4em;
+  }
+   #opportunities_under2 {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+  #opportunities_under {
+    font-size: 1.8em;
+  }
+   #opportunities_under2 {
+      font-size: 1.4em;
+    }
+}
+
+
+#opport_h1_margin {
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 960px) {
+  #opport_h1_margin {
+  margin-top: -115px;
+  }
+}
+
+
+   /*ABOUT US PAGE*/
+
+
+
+
+
+.sub_head1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+
+  .sub_head2 {
+  font-size: 1em;
+  width: 90%;
+  max-width: 500px;
+  padding: 14px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+ .sub_head1 {
+    font-size: 1.4em;
+  }
+   .sub_head2 {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+ .sub_head1 {
+    font-size: 1.8em;
+  }
+   .sub_head2 {
+      font-size: 1.4em;
+    }
+}
+
+
+#waystohelp {
+  width: 55%;
+  max-width: 160px;
+  margin-bottom: 30px;
+}
+
+
+iframe {
+  border: hidden;
+}
+
+
+
+  #pps_res_join {
+  max-width: 450px;
+  width: 90%;
+  height: 50px;
+  background: maroon;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -6px;
+  margin: 4px auto -7px;
+  padding-top: 11px;
+  border-radius: 16px;
+  }
+
+  .donate_btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: -4px;
+  width: 150px;
+
+  }
+
+@media only screen and (min-width: 365px) {
+    .donate_btn {
+      margin-top: 12px;
+        width: 200px;
+    }
+}
+
+
+
+
+  /*donate page*/
+
+  #donate_blurb {
+    /*font-size: 1.1em;*/
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 47px;
+  text-align: center;
+  /*line-height: 1.2em;*/
+  }
+
+
+
+  #need_support {
+    padding-top: 13px;
+    margin-bottom: 16px;
+    color: maroon;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+
+  #need_support2 {
+    font-size: 1.05em;
+    line-height: 1.2em;
+  }
+
+  #need_support3 {
+    padding-top: 5px;
+    color: black;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 0.9em;
+  }
+
+
+ @media only screen and (min-width: 400px) {
+    #need_support {
+          font-size: 1.9em;
+    }
+    #need_support2 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+  }
+  #need_support3 {
+        font-size: 1.1em;
+  }
+ }
+
+ @media only screen and (min-width: 960px) {
+  #need_support2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+ }
+}
+
+  #underline {
+    text-decoration: underline;
+  }
+

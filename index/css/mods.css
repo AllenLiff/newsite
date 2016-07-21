@@ -1,0 +1,1665 @@
+
+    /*modifications*/
+
+
+   .rwording {
+    width: 100%;
+    height: 490px;
+    margin-top: 70px;
+}
+
+
+
+/*#gaby {
+  margin-right: -40%;
+  font-size: 1em;
+}
+*/
+.italics {
+  font-style: italic;
+}
+
+ul.bullet {
+    list-style-type: circle;
+    list-style-position:inside;
+}
+
+.homer_top_banner {
+  width: 100%;
+  height: 200px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+
+     background:
+linear-gradient(200deg,
+ #330000, transparent 100%),
+            linear-gradient(260deg,
+ #000000, transparent 35%),
+            linear-gradient(210deg,
+ #330000, transparent 99%),url(../img/rally9.jpg);
+     background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      text-align: center;
+       display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homer_top_banner h1 {
+  color: white;
+  font-size: 0.78em;
+  line-height: 1.3em;
+}
+
+
+
+
+.teacher_top_banner {
+  width: 100%;
+  height: 200px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+
+     background:
+linear-gradient(200deg,
+ #FFA800, transparent 90%),
+            linear-gradient(190deg,
+ #000, transparent 135%),
+            linear-gradient(210deg,
+ #FFA800, transparent 99%),url(../img/rally9.jpg);
+     background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+      text-align: center;
+       display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teacher_top_banner h1 {
+  color: white;
+  /*font-weight: bold;*/
+  letter-spacing: 0.1em;
+  font-size: 0.78em;
+  line-height: 1.3em;
+}
+
+
+
+
+.resolution_banner  {
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+  width: 100%;
+  height: 240px;
+
+  margin-bottom: 45px;
+   margin-top: 65px;
+
+  background:
+            linear-gradient(
+    #001a4d, transparent 179%),
+            linear-gradient(260deg, #009933, transparent 15%),
+
+            linear-gradient(60deg,  #004d1a, transparent 25%),  linear-gradient(160deg,  #000, transparent 5%),
+              #001a09 url(../img/winbg.jpg) no-repeat center;
+            /* last line is top layer  */
+  background-size: cover;
+  background-position: top;
+  top: 0;
+      text-align: center;
+       display: flex;
+  justify-content: center;
+  flex-direction: column;
+   margin-top: 165px;
+}
+
+
+@media screen and (min-width: 960px) {
+  .resolution_banner  {
+    font-size: 2.9em;
+  width: 100%;
+  height: 240px;
+  margin-top: 315px;
+  margin-bottom: 45px;
+
+}
+
+#mission_top {
+  font-size: 3.3em;
+  letter-spacing: 0.17em;
+  font-weight: bold;
+}
+
+.thankyou_banner  {
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+  width: 100%;
+  height: 240px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+
+  background:
+            linear-gradient(
+   #004d00, transparent 179%),
+            linear-gradient(260deg, #009933, transparent 65%),
+
+            linear-gradient(60deg,  #004d1a, transparent 95%),  linear-gradient(160deg,  #000, transparent 5%),
+              #001a09 url(../img/toura.jpg) no-repeat center;
+            /* last line is top layer  */
+  background-size: cover;
+  background-position: top;
+  top: 0;
+      text-align: center;
+       display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.createplenty_who  {
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+
+  background:
+            linear-gradient(
+   #004d00, transparent 179%),
+            linear-gradient(260deg, #009933, transparent 65%),
+
+            linear-gradient(60deg,  #004d1a, transparent 95%),  linear-gradient(160deg,  #000, transparent 5%);
+            background: url(../img/cheetos2.jpg);
+           background-repeat: no-repeat;
+            /* last line is top layer  */
+  background-size: cover;
+  background-position: top;
+  top: 0;
+      text-align: center;
+       display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 369px)  {
+
+.homer_top_banner h1 {
+  font-size: 0.9em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+
+.teacher_top_banner h1 {
+  font-size: 0.9em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 410px)  {
+
+.homer_top_banner h1 {
+  font-size: 1em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+
+.teacher_top_banner h1 {
+  font-size: 1em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 600px)  {
+
+.homer_top_banner h1 {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+
+.teacher_top_banner h1 {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+@media screen and (min-width: 960px)  {
+
+.homer_top_banner h1 {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+
+.teacher_top_banner h1 {
+  font-size: 1.6em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  }
+}
+
+
+/*
+#thankyou_banner h1 {
+  font-size: 1.9em;
+  line-height: 1.3em;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 100px 0 0 0;
+  }*/
+}
+
+
+.front_three_container {
+        width: 100%;
+
+        text-align: center;
+  }
+
+
+#for_students,
+#for_teachers,
+#our_mission {
+  min-width: 280px;
+  width: 20%;
+  height: 70px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+
+#for_students {
+  margin-top: 50px;
+}
+#for_teachers,
+#our_mission{
+  margin-top: 310px;
+}
+
+
+.front_three {
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: none;
+  margin-top: 15px;
+  color: #595959;
+  /*padding: 40px 15px 0 15px;*/
+  }
+
+.front_three_container img {
+  border: 1px solid black;
+}
+
+
+
+.teacher_quote {
+  font-size: 0.8em;
+  line-height: 1.3em;
+  padding-top: 5px;
+}
+
+.sponsors {
+  text-align: center;
+  margin-bottom: 100px;
+  }
+.sponsors_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr_line {
+  width: 100%;
+  border-top: 1px solid #b3b3b3;
+}
+
+@media screen and (min-width: 780px) {
+.sponsors {
+   display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+      justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 860px) {
+#for_students,
+#for_teachers,
+#our_mission {
+  min-width: 280px;
+  width: 20%;
+  height: 70px;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: block;
+  }
+
+
+}
+
+@media screen and (min-width: 860px) {
+
+
+
+.front_three_container {
+        width: 82%;
+         display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+#for_students,
+#for_teachers,
+#our_mission {
+  /*min-width: 280px;*/
+  width: 22%;
+  height: 70px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+        display: inline-block;
+  }
+
+#for_students p,
+#for_teachers p,
+#our_mission p {
+  font-weight: normal;
+  text-transform: none;
+  /*padding: 0 15px 0 15px;*/
+  }
+
+  #for_teachers {
+    /*margin: 0 5px 0 5px;*/
+  }
+}
+#donate_front {
+  margin-top: 80px;
+}
+.ctr {
+  text-align: center;
+}
+.line {
+  width: 30%;
+  border: 1px solid #c10000;
+  margin: 0 auto;
+}
+
+.short_line {
+  width: 200px;
+  border: 1px solid  #bfbfbf;
+  margin: 0 auto 0 auto;
+}
+
+
+#cr_arrow {
+  width: 249px;
+  margin-top: 335px;
+}
+
+
+.email {
+  font-style: italic;
+  color: #c10000;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#frontpic
+  margin-bottom: 40px;
+}
+
+
+  #frontpic_sm {
+  margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 699px) {
+#frontpic {
+  display: none;
+  }
+  #leadpic {
+  display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 700px) {
+  #frontpic_sm {
+    display: none;
+  }
+  #leadpic_sm {
+  display: none;
+  }
+}
+
+
+.video_quote {
+
+   width: 99%;
+    max-width: 650px;
+  margin-bottom: 35px;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 34px 0;
+/*  border-top: 2px solid black;
+  border-bottom: 2px solid black;*/
+  background:
+            linear-gradient(360deg,  #c10000, transparent 99%),
+            linear-gradient(180deg,  #c10000, transparent 99%);
+
+}
+
+
+
+.teacher_info {
+
+   width: 79%;
+    max-width: 350px;
+  margin-bottom: 85px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 0;
+/*  border-top: 2px solid black;
+  border-bottom: 2px solid black;*/
+  background:
+            linear-gradient(360deg,  green, transparent 99%),
+            linear-gradient(180deg,  #000, transparent 89%);
+
+}
+
+
+.flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.frontpic_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.missionpic_container {
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner_pic_caption {
+  font-size: 0.85em;
+  line-height: 1.5em;
+  color: black;
+  width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -18px;
+   margin-bottom: 10px;
+}
+
+
+
+.top_front_headline h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 18px;
+  color: #595959;
+}
+
+.front_headline h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-top: 18px;
+}
+
+.lead_headline h1 {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 360px) {
+.top_front_headline h1 {
+  /*font-weight: bold;*/
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  line-height: 1.4em;
+  }
+.front_headline h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  }
+  .lead_headline h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  }
+}
+
+
+
+#frontpic_caption {
+  font-size: 1em;
+  color: #fff;
+    font-weight: bold;
+  text-align: center;
+  line-height: 1.4em;
+  width: 315px;
+  margin: 14px auto 0 auto;
+}
+
+
+@media screen and (min-width: 520px) {
+  .top_front_headline h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+  .front_headline h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+  .lead_headline h1 {
+    font-size: 2.9em;
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  .banner_pic_caption {
+  font-size: 1.6em;
+  font-weight: bold;
+  width: 490px;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+.banner_pic_caption {
+  width: 100%;
+  }
+}
+
+
+#frontpic_caption_attribution {
+  font-size: .7em;
+  font-weight: bold;
+  color: #fff;
+  width: 270px;
+  text-align: right;
+  margin: 4px auto 5px;
+  line-height: 1.6em;
+}
+
+#front_pic2_caption {
+   font-style: italic;
+  font-size: .8em;
+  text-align: center;
+  line-height: 1.2em;
+  }
+
+
+@media screen and (min-width: 610px) {
+
+#frontpic_caption {
+  font-size: 1.1em;
+  line-height: 1.45em;
+  margin-bottom: 22px;
+  margin-top: 39px;
+  }
+}
+
+
+@media screen and (min-width: 760px) {
+.top_front_headline h1 {
+  font-size: 1.95em;
+  margin-top: 21px;
+  }
+.front_headline h1 {
+  font-size: 1.95em;
+  margin-top: 21px;
+  }
+
+
+  #front_pic2_caption {
+  font-size: 0.9em;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .front_headline h2 {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.front_article {
+  text-align: justify;
+
+    font-size: 1em;
+    line-height: 1.3em;
+    color: black;
+    width: 79%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 8px;*/
+    margin-bottom: 45px;
+    /*padding-top: 4px;*/
+    padding-bottom: 24px;
+}
+
+.front_article a {
+  color: #c10000;
+  font-weight: bold;
+}
+
+
+#thankyou {
+  margin-top: -35px;
+  margin-bottom: -35px;
+}
+
+#more_work {
+    font-size: 1em;
+    line-height: 1.3em;
+    width: 79%;
+    max-width: 650px;
+    margin: 40px auto 42px auto;
+}
+
+#front_pic2 {
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    border: 2px solid black;
+}
+
+
+#video_caption {
+  font-size: 0.74em;
+  line-height: 1.4em;
+  color: white;
+  font-weight: bold;
+  width: 279px;
+  margin: 12px auto 15px auto;
+}
+
+#video_tagline {
+  font-size: 0.8em;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+}
+
+.background_row1 {
+  width: 100%;
+  color: black;
+  padding: 20px 0;
+  margin-top: 20px;
+  border-bottom: 1px solid #c10000;
+  border-top: 1px solid #c10000;
+
+}
+
+
+
+
+#donate_pic {
+  width: 95%;
+  max-width: 960px;
+  margin: 10px auto 20px;
+}
+
+
+
+.vert_mid {
+position: relative;
+  top: 26%;
+  transform: translateY(-26%);
+}
+
+.front_botline{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+
+
+.leadership span,
+.opportunities span,
+.our_mission span,
+.home1 span {
+  color: black;
+  font-weight: bold;
+  }
+
+
+
+.box {
+        height: 42px;
+        font-size: .75em;
+        /*color: black;*/
+      }
+
+.box a {
+  color: #fff;
+}
+
+
+
+
+/*@media screen and (min-width: 750px) {*/
+
+    .front_pic {
+        margin-bottom: 18px;
+    }
+
+
+      /*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+      .menu_container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin: 42px 45px 0 0;
+      }
+
+@media screen and (max-width: 860px) {
+  .menu_container {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 861px) {
+  .cd-nav-trigger {
+    display: none;
+    border: 10px solid yellow;
+  }
+}
+
+  .leadership {
+    width: 114px;
+    height: 17px;
+    padding: 0px 2px 0px 2px;
+    margin-right: 2px;
+    text-align: center;
+    border-left: 1px solid #c10000;
+  }
+
+#no_border {
+  border: none;
+}
+
+#teacher_right {
+      margin-right: 5px;
+}
+
+  .opportunities {
+    width: 119px;
+        height: 17px;
+    padding: 0px 2px 0px 2px;
+       margin-right: 2px;
+       text-align: center;
+           border-left: 1px solid #c10000;
+  }
+
+
+  .our_mission {
+    width: 89px;
+        height: 17px;
+    padding: 0px 2px 0px 2px;
+    margin-right: 15px;
+    text-align: center;
+    border-left: 1px solid #c10000;
+  }
+
+
+.home1 {
+    width: 54px;
+    height: 17px;
+    padding: 0px 2px 0px 2px;
+    margin-right: 2px;
+    text-align: center;
+  }
+
+
+
+  .front_botline {
+ /*   padding-bottom: 17px;*/
+  border-bottom: hidden;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  }
+
+
+
+
+
+
+  /*above is new front page stuff*/
+
+.cover_image {
+text-align: center;
+margin-top: 70px;
+}
+
+.logo_head {
+  max-width: 320px;
+  width: 60%;
+  margin-top: 4px;
+  margin-bottom: 11px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cplogo_head {
+  width: 150px;
+  margin: 9px 0 0 20px;
+}
+
+
+@media screen and (min-width: 861px) {
+  .cplogo_head {
+   margin: -35px 0 0 20px;
+   }
+}
+
+.logo_head2 {
+  max-width: 250px;
+  width: 45%;
+  margin-top: 4px;
+  margin-bottom: 11px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ @media only screen and (min-width: 960px) {
+  .logo_head {
+  max-width: 320px;
+  margin-top: 1px;
+  margin-bottom: 11px;
+  }
+  .logo_head2 {
+  max-width: 220px;
+  margin-top: 1px;
+  margin-bottom: 11px;
+  }
+}
+
+
+#logo_head_donate {
+  max-width: 290px;
+  margin-top: -26px;
+  margin-bottom: -29px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ @media only screen and (min-width: 960px) {
+  #logo_head_donate {
+  margin-top: -26px;
+  margin-bottom: -29px;
+  }
+}
+
+
+
+#logo_under {
+  font-size: 1em;
+  color:  #404040;
+  font-weight: bold;
+  width: 90%;
+  max-width: 900px;
+  padding: 0px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -29px;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+  #opportunities_under {
+    font-size: 1.4em;
+  }
+   #logo_under {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+   #logo_under {
+      font-size: 1.5em;
+    }
+}
+
+
+
+
+
+
+.help_logo_left  {
+  max-width: 220px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+
+
+.pages_headers {
+  margin-top: 21px;
+  margin-bottom: -100px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.4em;
+    /*add position relative z-index to overwrite iframe padding*/
+  position: relative;
+  z-index: 1;
+  }
+  .pages_headers h1 {
+    font-size: 1.3em;
+    margin-top: 47px;
+    margin-bottom: -10px;
+  }
+
+
+
+
+@media only screen and (min-width: 360px) {
+.pages_headers {
+  margin-top: -119px;
+  margin-bottom: -99px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.4em;
+  }
+   .pages_headers h1 {
+  }
+}
+
+
+
+@media only screen and (min-width: 450px) {
+.pages_headers {
+  margin-top: -129px;
+  margin-bottom: -98px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.4em;
+  border: none;
+  }
+.pages_headers h1 {
+    font-size: 1.6em;
+    margin-bottom: -5px;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+.pages_headers {
+  margin-top: -115px;
+  margin-bottom: -78px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 1.4em;
+  border:none;
+  }
+.pages_headers h1 {
+    font-size: 1.8em;
+    margin-bottom: -5px;
+   }
+}
+
+
+
+
+
+
+
+
+
+#timeline_logo {
+  max-width: 420px;
+}
+
+
+#patagonia {
+  width: 23%;
+  max-width: 90px;
+  margin-top: 29px;
+  border: 1px solid orange;
+}
+
+
+#patag_thanx{
+  line-height: 1.2em;
+  margin-bottom: 35px;
+  margin-top: 12px;
+
+}
+
+#patag_thanx h2 {
+  font-size: 1.1em;
+  color:   #737373;
+}
+#patag_thanx p {
+  font-size: 0.8em;
+  color: #737373;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#contact_png {
+  margin-top: 0px;
+  margin-bottom: 1px;
+}
+
+#contact_info {
+  font-size: 0.9em;
+  line-height: 1.2em;
+  color: #737373;
+  margin-bottom: 20px;
+}
+
+#thank_board {
+  /*background: #774a4a;*/
+  border: 2px solid #774a4a;
+   width: 99%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 590px) {
+
+
+#patagonia {
+  margin-top: 44px;
+}
+
+#patag_thanx{
+  line-height: 1.6em;
+}
+
+
+#patag_thanx h2 {
+  font-size: 1.2em;
+  }
+#patag_thanx p {
+  font-size: 1em;
+    width: 500px;
+  }
+}
+
+
+   /*sizing for pointy slide show on Students Take Action*/
+.iframe_fixer {
+  position: relative;
+}
+
+
+#show1_ctr {
+  /*margin: 0px;*/
+  text-align: center;
+}
+
+   #slides {
+    width: 100%;
+    height: 490px;
+    margin-top: 70px;
+    margin-left: -5%;
+    margin-right: auto;
+}
+
+
+/*sizing for pointy slide show on Opportunities*/
+/*
+#show2_ctr {
+  margin: 0px;
+  text-align: center;
+}
+*/
+
+#show2_holder {
+  text-align: center;
+}
+
+   #slides2 {
+    width: 95%;
+/*    height: 650px;*/
+                height: 550px;
+    margin-top: 70px;
+  }
+
+@media only screen and (min-width: 960px) {
+  #slides2 {
+    height: 520px;
+    margin-top: 70px;
+  }
+}
+
+
+/*
+@media only screen and (min-width: 450px) {
+  #slides2 {
+    width: 105%;
+    height: 210px;
+    margin-top: 70px;
+  }
+}
+
+
+@media only screen and (min-width: 645px) {
+  #slides2 {
+    width: 105%;
+    height: 240px;
+    margin-top: 70px;
+  }
+}
+
+
+*/
+#slides_holder {
+text-align: center;
+}
+
+.top_ctr {
+  text-align: center;
+}
+
+
+   /*leader-group svg sizing on action page*/
+
+   #leader-group {
+    width: 45%;
+    max-width: 190px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+   }
+
+   /*line height for action page*/
+
+   .line_ht1 {
+    line-height: .9em;
+   }
+
+
+     /*Join Other Schools Page*/
+
+     #schools_pic_lg {
+
+     width: 100%;
+     max-width: 900px;
+     margin-top: 70px;
+     }
+
+
+ /*calendar container - action page*/
+
+
+     .calendar_container {
+      border-top: 4px solid gray;
+      border-left: 1px solid gray;
+      border-right: 1px solid gray;
+      border-bottom: 4px solid gray;
+      border-radius: 12px;
+      max-width: 650px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      padding: 10px 9px 32px;
+     }
+
+     .calendar_container h3 {
+      font-size: 1.1em;
+      font-weight: bold;
+     }
+      .calendar_container p {
+      font-size: 1.1em;
+     }
+
+
+     .calendar_pic_ctr {
+      text-align: center;
+     }
+
+
+     .calendar_pic {
+      max-width: 640px;
+      width: 95%;
+    }
+
+
+#events_button {
+  color:  #bb1133;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#action_arrow_down {
+  width: 49%;
+  max-width: 170px;
+  margin-bottom: 12px;
+}
+
+  #su {
+  max-width: 550px;
+  width: 90%;
+  height: 50px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -6px;
+  margin: 4px auto -7px;
+  padding-top: 11px;
+  }
+
+ @media only screen and (max-width: 360px) {
+  #su {
+     font-size:80%;
+  }
+ }
+
+   /*Opportunities Page*/
+
+
+/*opportunities list svg sizing on action page*/
+
+   #opportunities_get {
+    width: 45%;
+    max-width: 190px;
+    margin-bottom: 20px;
+   }
+
+
+  /*opportunities banner*/
+
+  #banner_opportunities {
+
+  background:
+            linear-gradient(44deg,  #00cc00, transparent 29%),
+            linear-gradient(260deg,
+ #b30000, transparent 65%),
+            linear-gradient(160deg,
+ #ffe6e6, transparent 145%),
+            #ffa949 url('../img/tour2.jpg') no-repeat center;
+            /* last line is top layer  */
+ /* background-size: cover;
+  background-position: top;*/
+  padding-top: 40px;
+  line-height: 1.5em;
+  height: 195px;
+  margin-top: 122px;
+  /*color: #4d4d4d;*/
+    color: white;
+        text-shadow: 2px 2px black;
+
+
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+ @media only screen and (min-width: 490px) {
+
+ #banner_opportunities {
+  font-size: 1.8em;
+   line-height: 1.6em;
+     height: 260px;
+ }
+}
+
+
+@media only screen and (min-width: 690px) {
+
+ #banner_opportunities {
+  font-size: 2.9em;
+   line-height: 1.6em;
+     height: 380px;
+ }
+}
+
+
+
+
+
+#opportunities_under {
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+
+#opportunities_under2 {
+  font-size: 1em;
+  width: 90%;
+  max-width: 500px;
+  padding: 14px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+  #opportunities_under {
+    font-size: 1.4em;
+  }
+   #opportunities_under2 {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+  #opportunities_under {
+    font-size: 1.8em;
+  }
+   #opportunities_under2 {
+      font-size: 1.4em;
+    }
+}
+
+
+#opport_h1_margin {
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 960px) {
+  #opport_h1_margin {
+  margin-top: -115px;
+  }
+}
+
+
+
+/*LEADERSHIP PAGE*/
+
+.subhead_leadership {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 17px;
+}
+
+#pic_testify_leadership {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 900px) {
+#leadership1,
+#leadership2,
+#leadership3 {
+  width: 33.33%;
+  height: 100px;
+  border: 2px solid red;
+  }
+}
+   /*ABOUT US PAGE*/
+
+
+
+
+
+.sub_head1 {
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+
+  .sub_head2 {
+  font-size: 1em;
+  width: 90%;
+  max-width: 500px;
+  padding: 14px 6px 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+
+
+ @media only screen and (min-width: 480px) {
+ .sub_head1 {
+    font-size: 1.4em;
+  }
+   .sub_head2 {
+      font-size: 1.2em;
+    }
+}
+
+
+ @media only screen and (min-width: 960px) {
+ .sub_head1 {
+    font-size: 1.8em;
+  }
+   .sub_head2 {
+      font-size: 1.4em;
+    }
+}
+
+
+#waystohelp {
+  width: 55%;
+  max-width: 160px;
+  margin-bottom: 30px;
+}
+
+
+iframe {
+  border: hidden;
+}
+
+
+
+  #pps_res_join {
+  max-width: 450px;
+  width: 90%;
+  height: 50px;
+  background: maroon;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -6px;
+  margin: 4px auto -7px;
+  padding-top: 11px;
+  border-radius: 16px;
+  }
+
+  .donate_btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: -4px;
+  width: 150px;
+
+  }
+
+@media only screen and (min-width: 365px) {
+    .donate_btn {
+      margin-top: 12px;
+        width: 200px;
+    }
+}
+
+
+
+
+  /*donate page*/
+
+  #donate_blurb {
+    /*font-size: 1.1em;*/
+  font-weight: bold;
+  width: 90%;
+  max-width: 500px;
+  /*border-top: 4px solid black;
+  border-bottom: 4px solid black;*/
+  padding: 11px 0 11px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 47px;
+  text-align: center;
+  /*line-height: 1.2em;*/
+  }
+
+
+
+  #need_support {
+    padding-top: 13px;
+    margin-bottom: 16px;
+    color: maroon;
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+
+  #need_support2 {
+    font-size: 0.6em;
+    line-height: 1.2em;
+  }
+
+  #need_support3 {
+    padding-top: 5px;
+    color: black;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 0.9em;
+  }
+
+
+ @media only screen and (min-width: 400px) {
+    #need_support {
+          font-size: 1.9em;
+    }
+    #need_support2 {
+    font-size: 1.04em;
+    line-height: 1.2em;
+  }
+  #need_support3 {
+        font-size: 1.1em;
+  }
+ }
+
+ @media only screen and (min-width: 960px) {
+  #need_support2 {
+    font-size: 1.04em;
+    line-height: 1.2em;
+ }
+}
+
+  #underline {
+    text-decoration: underline;
+  }
+
+#vision_head {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
